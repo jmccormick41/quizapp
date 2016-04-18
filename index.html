@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	 <link href="css/styles.css" type="text/css" rel="stylesheet">
+
+
+	<title>Document</title>
+</head>
+<body>
+
+
+<div class="content">
+		<header>
+			<h1>IT'S TRIVIA TIME!!!</h1>
+		</header>
+
+		<!-- Instructions -->
+		<div class = "instructions">
+			<h2>Test your skills in the area of current events!</h2>
+			<p>Click the radio button next to the correct meaning. </p>
+		
+			<div id="begin">
+				<a href="#"><span class="begin-definition">START TO BEGIN</a></span>
+			</div>
+		</div>
+		<!-- End Instructions -->
+		<!-- Quiz area -->
+		<div class"quiz">
+			<!-- Question area -->
+			<div class="question">
+				<h2 class= "currentQ"></h2>
+			</div>
+
+			<div class="choices">
+				<ul>
+					<li><label for="radios0"><input type="radio" name="radios" id="radios0" value = "1"><span id="choice0"></span></label></li>
+					<li><label for="radios1"><input type="radio" name="radios" id="radios1" value = "2"><span id="choice1"></span></label></li>
+					<li><label for="radios2"><input type="radio" name="radios" id="radios2" value = "3"><span id="choice2"></span><li><label for="radios3"><input type="radio" name="radios" id="radios3" value = "4"><span id="choice3"></span></label></li>
+				</ul>
+			</div>
+
+			<!-- Answer area -->
+			<div class = "feedback">
+				<div id="submitAnswer"><h2>Check answer</h2></div>
+			<!-- Definition area -->
+			<div iclass = "definition"></div>
+
+			<!-- Next question area -->
+			<div class= "nextQ">
+				<h2>next question</h2>
+			</div>
+
+			</div>
+
+			<!-- Question number area -->
+			<div class="count"></div>
+
+
+			<!-- Final Score area -->
+			<div class="playAgain">
+				<h2>Play Again?</h2>
+			</div>
+		</div>
+		
+ </div> 
+
+</div>
+
+<script src="js/jquery-2.1.4.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+
+</html>
