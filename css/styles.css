@@ -1,124 +1,131 @@
-html, body {
-	height: 100%;
-	margin: 0;
-	font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
-}
-
-body {
-	background: url("../images/dictionary.jpg") no-repeat;
-	background-size: cover;
-	background-color: #E4C694;
-	color: #754719;
+html, body {font-family:  "Bitstream Charter", Georgia, serif;
+    height: 100%;
+    background: url("../images/dictionary.jpg") no-repeat;
+    background-size: cover;
+    background-color: #E4C694;
+    color: #754719;
 }
 
 a {
-	text-decoration: none;
-	color: rgb(153, 83, 83);
+    text-decoration: none;
+    color: rgb(153, 83, 83);
 }
 
 a:hover {
-	color: #c98d6a;
-	text-shadow: rgba(153, 83, 83, 0.3) 1px 1px 1px;
+    color: #c98d6a;
+    text-shadow: rgba(153, 83, 83, 0.3) 1px 1px 1px;
 }
 
-h1 {
-	margin-top: 0;
-	padding: 15px;
-	color: #8B2500;
+h1 {font-family: Garamond;
+    margin-top: 0;
+    padding: 15px;
+    color: #DC143C;
+    text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+
 }
 
 h2 {
-	margin-top: 5px;
-	margin-bottom: 5px;
-	color: #8B2500;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #DC143C;
 }
 
 ul {
-	list-style-type: none;
+    list-style-type: none;
 }
 
-.content {
-	text-align: center;
-	background-color: #fcf8ed;
-	width: 70%;
-	margin: 0 auto;
-	height: 100%;
-	border-left: 1px solid black;
-	border-right: 1px solid black;
-	padding: 25px;
+#content {
+    text-align: center;
+    background-color: #fcf8ed;
+    width: 70%;
+    margin: 0 auto;
+    height: 100%;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 25px;
 }
 
 li {
-	padding-bottom:  5px;
+    padding-bottom:  5px;
 }
 
-.instructions {
-	/*display: none;*/
+#instructions {
+    /*display: none;*/
 }
 
-.quiz {
-	display: none;
+#quiz {
+    display: none;
 }
 
-.choices {
-	text-align: left;
-	padding-left: 50px;
+#choices {color:#000000;
+    text-align: left;
+    padding-left: 50px;
 }
 
-.checkAnswer {
-	padding-left: 20%;
+#checkAnswer {
+    padding-left: 20%;
 }
 
-.submitAnswer {
-	text-align: center;
-	padding: 10px;
-	background-color: #754719;
-	color: #FF4500;
-	border-radius: 13px;
-	margin-top: 25px;
+#submitAnswer {
+    text-align: center;
+    padding: 15px;
+    background-color: #B03060;
+    color: #fcf8ed;
+    border-radius: 13px;
+    margin-top: 25px;
 }
 
-.submitAnswer:hover {
-	background-color: #b2937b;
+#submitAnswer:hover {
+    background-color: #b2937b;
 }
 
-.nextQ, #playAgain {
-	color: #754719;
-	text-align: center;
-	margin-top: 15px;
-	padding: 10px;
+#nextQ, #playAgain {
+    color: #754719;
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
 }
 
 #playAgain {
-	display: none;
+    display: none;
 }
 
-.nextQ:hover, #playAgain:hover {
-	color: #b2937b;
+#nextQ:hover, #playAgain:hover {
+    color: #b2937b;
 }
 
-.definition {
-	margin-top: 15px;
+#definition {
+    margin-top: 15px;
 }
 
-.nextQ {
-	display: none;
+#nextQ {
+    display: none;
 }
 
-.begin {
-	font-size: 2em;
-	color: brown;
-	font-weight: bold;
-	margin-top: 40px;
+#begin {
+    font-size: 2em;
+    color: #B03060;
+    font-weight: bold;
+    margin-top: 40px;
 }
 
 .begin-definition {
-	font-size: .7em;
+    font-size: .7em;
 }
 
-.count {
-	margin-top: 15px;
+#count {color:#000000;
+    margin-top: 15px;
 }
-
 
 
