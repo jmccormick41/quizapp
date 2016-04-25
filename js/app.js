@@ -45,7 +45,7 @@ var questions = [
 
 {
   qNum: 6,
-  q: "YWho won the Super Bowl in 2016",
+  q: "Who won the Super Bowl in 2016",
   choices: ["Carolina Panthers", "Green Bay Packers", "Arizona Cardinals", "Denver Broncos"],
   correct: 4,
   
